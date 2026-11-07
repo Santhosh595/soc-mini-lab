@@ -1,0 +1,6 @@
+[2026-01-01T08:00:01] INFO  web: GET /index.html 200
+[2026-01-01T08:00:05] INFO  web: GET /about 200
+2026-01-01 08:00:10,123 INFO api GET /api/users 200
+[2026-01-01T08:00:15] WARN  api: slow query took 1200ms
+[2026-01-01T08:00:20] INFO  auth: user alice logged in successfully
+[2026-01-01T08:00:25] INFO  web: GET /contact 404

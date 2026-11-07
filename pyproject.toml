@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soc-mini-lab"
+version = "0.1.0"
+description = "AI-assisted SOC mini-lab: ingest logs, flag suspicious events, propose Sigma/YARA detections behind a human approval gate"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["security", "soc", "detection", "sigma", "yara", "audit"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+]
+
+[project.scripts]
+soc-mini-lab = "soc_mini_lab.cli:main"
+
+[tool.setuptools]
+packages = ["soc_mini_lab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
